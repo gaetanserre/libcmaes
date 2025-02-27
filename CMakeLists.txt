@@ -20,7 +20,7 @@ if (${PROJECT_SOURCE_DIR} STREQUAL ${CMAKE_SOURCE_DIR})
 endif ()
 
 # ---------- options ----------
-option (LIBCMAES_BUILD_SHARED_LIBS "Build libcmaes as a shared library" ON)
+option (LIBCMAES_BUILD_SHARED_LIBS "Build libcmaes as a shared library" OFF)
 option (LIBCMAES_BUILD_PYTHON "build python bindings" OFF)
 option (LIBCMAES_BUILD_TESTS "build tests" OFF)
 option (LIBCMAES_BUILD_EXAMPLES "build examples" ${LIBCMAES_TOP_LEVEL})
